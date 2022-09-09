@@ -1,0 +1,259 @@
+body{
+  overflow-x: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+
+  }
+  
+  li {
+    display:inline-block;
+    padding: 20px 50px;
+    color:darkblue;
+  }
+  .menu{
+    background-color: darkblue;
+    height: 15px;
+    color: white;
+    padding-top: 20px;
+  }
+  .about{
+    padding-top:250px;
+     padding-left: 60px; 
+  }
+  .h-1{
+    font-weight: 50;
+    color: darkblue;
+    font-size: 2em;
+  }
+  .h-2{
+    font-weight: 600;
+    color: darkblue;
+    font-size: 2em;
+  }
+  .p-1{
+    font-size: 1.2rem;
+    line-height: 1.267rem;
+    margin: 0;
+  }
+  .video{
+    padding: 64px;
+    top: 30%;
+  }
+    .products{   
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    border-bottom: .3px solid gray;
+    } 
+
+  .main-products{
+    margin-left:50% ;
+    margin-top: -60%;
+  }
+  .style{
+    padding-right: 80px;
+  }
+  .style2{
+    padding-right: 86px;
+  }
+ .main-products .style3{
+    padding-right: 70px;
+  }
+  .imag2{
+    padding: auto;
+  }
+  .img3{
+   padding: 18px;
+  }
+    .products1{   
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    border-bottom: .3px solid gray;
+    } 
+  .products2{   
+    margin-left: 4%;
+      display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+      border-bottom: .3px solid gray;
+  } 
+  .products3{   
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        border-bottom: .3px solid gray;
+   } 
+  .more-videos{
+    margin-left: 48%;
+    padding: 50px;
+  } 
+  .drop {
+    list-style-type: none;
+    margin-left:-41px;
+    display:flex;
+    flex-direction: column;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .h-3{
+    font-weight: 50;
+    color: darkblue;
+    font-size: 2em;
+  }
+  .h-4{
+    font-weight: 600;
+    color: darkblue;
+    font-size: 2em;
+  }
+  .second-section{
+    padding-left: 5%;
+    background-color:#dcdcdc;
+  }
+  .slider {
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: -290px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 1500PX;
+    height: 300px;
+    clear: both;
+     position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+  }
+  .follow{
+    background: white;
+   margin-left: 130px;
+   padding-top: 100px;
+  }
+  .follow h1{
+    color: darkblue;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 50px;
+  }
+  .img4{
+    border: 10px solid whitesmoke;
+    padding:20px 20px;
+  
+  }
+  .img5{
+    border: 10px solid whitesmoke;
+    padding:20px 20px;
+  
+  }
+  .img6{
+    border: 10px solid whitesmoke;
+    padding:20px 20px;
+  
+  }
+  .img7{
+    border: 10px solid whitesmoke;
+    padding:20px 20px;
+  
+  }
+  .footer{
+    background-color:lightgrey;
+    height: 300px;
+    border-top: 4px solid gray;
+    display: block;
+    border-top: 50px solid whitesmoke;
+    }
+     .image{
+    margin-top: -150px;
+    padding-left: 15px;
+    padding-right: 150px;
+    }
+
+.h2{
+    color:gray;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    padding: 80px;
+    padding-left: 12%;
+}
+.h3{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 25%;
+    line-height: 1.8em;
+    margin-top: -6%;
+    font-size: small;
+}
+.h4{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 40%;
+    line-height: 1.8em;
+    margin-top: -8%;
+    font-size: small;
+}
+.h5{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 55%;
+    line-height: 1.8em;
+    margin-top: -9%;
+    font-size: small;
+}
+.h6{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 35;
+    padding-left: 70%;
+    line-height: 1.8em;
+    margin-top: -11%;
+    font-size: small;
+}
+.end{
+  background-color: darkblue;
+  color: white;
+  font-size: xx-small;
+  font-weight: 1;
+  height: 50px;
+  padding: 0;
+}
